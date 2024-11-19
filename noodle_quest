@@ -1,0 +1,57 @@
+
+import math
+
+
+
+def welcome_player():
+    playerinput= input("Welcome to noodle quest would you like to begin 'y/n'")
+    if playerinput == 'y':
+        print("rest of the info")
+    elif playerinput == 'n': 
+        exit
+
+
+def scene_one():
+    player_name = input("Whats your name?")
+    print("You get a call from lord farquaad")
+    person_input = input("Do you answer? y/n")
+    if person_input == "y":
+        print("You must venture into the Italian Chinese food restaurant to acquire infinite Chinese food. I am starving and my 5 meals a day just won't do any longer. I will lend you a backpack chockablock with items pivotal to your journey, which are a Grappling Hook, a Flashlight, a Freddy Fazbear Watch, an SOS Reciever, and a bag of Cheezits. If you fail to complete within 48 hours, I will put you in the oven with the gingerbread man. Do you acquiesce?")
+    elif person_input == "n":
+        print("Answer reguardless. \n You must venture into the Italian Chinese food restaurant to acquire infinite Chinese food. I am starving and my 5 meals a day just won't do any longer. I will lend you a backpack chockablock with items pivotal to your journey, which are a Grappling Hook, a Flashlight, a Freddy Fazbear Watch, an SOS Reciever, and a bag of Cheezits. If you fail to complete within 48 hours, I will put you in the oven with the gingerbread man. Do you acquiesce? \n Type enter to go into the resturant")
+    
+
+
+def scene_three():
+    yes = True
+    print("You use the chuck e cheese token to go into the Back Room!!!")
+    print("Upon entering the dark room with one area being lit up by the infinite Chinese food when you are Suddenly stopped by the globglogabgalab. \n he says I am the globglogabgalab and I want something if you want to get by.")
+    print("What do you give to him 'Grappling hook, Flash light, Freddy Fazbear Watch, Sos receiver, Cheez its")
+    while "Cheez its":
+        pi = input("Hurry and give me something")
+    if pi =="Grappling hook":
+        print("I dont want that give me foooooooddddddddddd")
+    elif pi == "Flash light":
+        print("Nooooooooooœ I WANT FOOD")
+    elif pi == "Freddy Fazbear Watch":
+        print("I DONT WANT THIS")
+    elif pi == "Sos receiver":
+        print("Why would I need this")
+    elif pi == "Cheez its":
+        print("Yes this is the best thing I have ever seen in my life that anything you want you have made globglogabgalab very happy.")
+    pi = input("Do you dare try again y/n:")
+    if pi == "y":
+        play_again = True
+    elif pi == "n":
+        play_again = False
+
+
+
+
+
+
+print("SCENE 1")
+
+
+
+scene_three()
